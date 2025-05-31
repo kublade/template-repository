@@ -1,1 +1,124 @@
-[]
+[
+    {
+        "type": "input_text",
+        "key": "text_example",
+        "label": "Text Example",
+        "value": "example",
+        "required": true,
+        "secret": false,
+        "set_on_create": true,
+        "set_on_update": false
+    },
+    {
+        "type": "textarea",
+        "key": "textarea_example",
+        "label": "Textarea Example",
+        "value": null,
+        "required": true,
+        "secret": false,
+        "set_on_create": false,
+        "set_on_update": true
+    },
+    {
+        "type": "input_number",
+        "key": "number_example",
+        "label": "Number Example",
+        "value": 20,
+        "min": 10,
+        "max": 100,
+        "step": 10,
+        "required": true,
+        "secret": true,
+        "set_on_create": true,
+        "set_on_update": true
+    },
+    {
+        "type": "input_range",
+        "key": "range_example",
+        "label": "Range Example",
+        "value": 5,
+        "min": 1,
+        "max": 10,
+        "step": 1,
+        "required": false,
+        "secret": false,
+        "set_on_create": true,
+        "set_on_update": true
+    },
+    {
+        "type": "input_radio",
+        "key": "radio_example",
+        "label": "Radio Example",
+        "value": null,
+        "options": [
+            {
+                "label": "Option 1",
+                "value": "option1",
+                "default": true
+            },
+            {
+                "label": "Option 2",
+                "value": "option2",
+                "default": false
+            }
+        ],
+        "required": false,
+        "secret": false,
+        "set_on_create": true,
+        "set_on_update": true
+    },
+    {
+        "type": "input_radio_image",
+        "key": "radio_image_example",
+        "label": "Radio Image Example",
+        "value": null,
+        "options": [
+            {
+                "label": "https://placehold.co/600x400",
+                "value": "option1",
+                "default": true
+            },
+            {
+                "label": "https://placehold.co/400x600",
+                "value": "option2",
+                "default": false
+            }
+        ],
+        "required": false,
+        "secret": false,
+        "set_on_create": true,
+        "set_on_update": true
+    },
+    {
+        "type": "select",
+        "key": "select_example",
+        "label": "Select Example",
+        "value": null,
+        "options": [
+            {
+                "label": "Option 1",
+                "value": "option1",
+                "default": false
+            },
+            {
+                "label": "Option 2",
+                "value": "option2",
+                "default": true
+            }
+        ],
+        "required": false,
+        "secret": false,
+        "set_on_create": true,
+        "set_on_update": true
+    },
+    {
+        "type": "input_checkbox",
+        "key": "checkbox_example",
+        "label": "Checkbox Example",
+        "value": "example",
+        "required": true,
+        "secret": false,
+        "set_on_create": true,
+        "set_on_update": true
+    }
+]

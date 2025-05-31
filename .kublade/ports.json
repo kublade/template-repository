@@ -1,1 +1,14 @@
-[]
+[
+    {
+        "group": "k8s-test",
+        "claim": "httpExample",
+        "preferred_port": 8080,
+        "random": true
+    },
+    {
+        "group": "k8s-test",
+        "claim": "httpsExample",
+        "preferred_port": 8443,
+        "random": true
+    }
+]
